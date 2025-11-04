@@ -313,6 +313,7 @@ F. R. of Germany;DEU
 F.R. Germany;DEU
 F.R. of Germany;DEU
 F.R. Yugoslavia;SCG
+F_R_ of Germany;DEU
 Faeroe Isds;FRO
 Faeroe Islands;FRO
 faeroe islands;FRO
@@ -345,6 +346,7 @@ former german democratic republic;GDR
 former panama canal zone;XXX
 Former Soviet Union (if no detail);SUN
 former U.S.S.R.;SUN
+former U_S_S_R_;SUN
 former yemen;XXX
 Former Yugoslav Republic of Macedonia;MKD
 Former Yugoslavia;YUG
@@ -384,6 +386,7 @@ GE;GEO
 Georgia;GEO
 Georgien;GEO
 German D.R.;DDR
+German D_R_;DDR
 German Dem . Rep .;DDR
 German Dem . Republic;DDR
 German Dem Rep;DDR
@@ -441,7 +444,7 @@ Hong Kong ( e );HKG
 Hong Kong ( E );HKG
 Hong Kong (China);HKG
 Hong Kong (e);HKG
-Hong Kong , China;HGK
+Hong Kong , China;HKG
 Hong Kong SAR;HKG
 Hong Kong Special Administrative Region of China;HKG
 hong kong special adminstrative region of china;HKG
@@ -928,10 +931,12 @@ Solomon_Islands;SLB
 Solomon Is_;SLB
 Somalia;SOM
 South Africa;ZAF
-# SAC is introduced as a new iso3code for the South African Customs Union. 
-# This code is not taken yet but might cause problems in the future.
-South African C.U.;SAC
-South African Customs Union;SAC
+# South African Customs Union is mapped onto South Africa because
+# the data is aggregated to Sub-Saharan Africa (SSA) in REMIND anyways
+# and disaggregation would require additional assumptions that might not be
+# accurate anyways. No good implementation with toolISOhistorical available yet.
+South African C.U.;ZAF
+South African Customs Union;ZAF
 South Georgia and the South Sandwich Islands;SGS
 South Korea;KOR
 South Sudan;SSD
